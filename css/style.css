@@ -1,8 +1,12 @@
+
 body {
   background: #fff;
   color: #666666;
-  font-family: "mongolian_White", sans-serif;
+  font-family: mongolian_white, sans-serif;
+  max-width: 100%;
 }
+
+
 
 a {
   color: #03C4EB;
@@ -21,7 +25,7 @@ p {
 }
 
 h1, h2, h3, h4{
-  font-family: "mongolian_White", sans-serif;
+  font-family: mongolian_White, sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
@@ -46,23 +50,6 @@ h1, h2, h3, h4{
   vertical-align: middle;
 }
 
-#hero h1 {
-  position: relative;
-  font-size: 6em;
-  bottom: 280px;
-  margin: 30px 0 10px 0;
-  font-weight: 700;
-  line-height: 48px;
-  text-transform: uppercase;
-  color: #fff;
-}
-
-@media (max-width: 768px) {
-  #hero h1 {
-    font-size: 5em;
-    line-height: 36px;
-  }
-}
 
 #hero h2 {
   color: #999;
@@ -87,7 +74,7 @@ h1, h2, h3, h4{
 #hero .actions a {
   position: relative;
   top: 250px;
-  font-family: "mongolian_white", sans-serif;
+  font-family: mongolian_white, sans-serif;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 16px;
@@ -151,6 +138,7 @@ h1, h2, h3, h4{
 .nav-menu li {
   position: relative;
   white-space: nowrap;
+
 }
 
 .nav-menu > li {
@@ -171,15 +159,15 @@ h1, h2, h3, h4{
   min-width: 180px;
 }
 
-/* Estilo del menu de nav*/
+
 .nav-menu a {
   padding: 10px 15px;
   text-decoration: none;
   display: inline-block;
   color: #fff;
-  font-family: 'Mongolian_white';
+  font-family: Mongolian_white;
   font-weight: 300;
-  font-size: 14px;
+  font-size: 1.4em;
   outline: none;
 }
 
@@ -235,6 +223,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #about .about-container {
   background: url(../medicine.jpg) no-repeat;
   background-size: 600px;
+  height: 500px;
 }
 
 #about .about-content {
@@ -249,6 +238,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #about .about-text {
   line-height: 26px;
+  font-size: 1.5em;
+  position: absolute;
+  left: 30px;
 }
 
 #about .about-text:last-child {
@@ -276,11 +268,27 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 
-
-.mision{
-  position: relative;
-  left: 30%;
+.mision-vision{
+  margin-left: 500px;
+  text-align: center;
+  transform: translateX(-20%);
+  display: flex;
+  flex-direction: row;
+}
+.mision{text-align:  center;
+  margin: 0 20px;
+  max-width:100%;
+  width: 600px;
   margin-bottom: 100px;
+  font-size: 1.5em;
+}
+.vision{
+  text-align:  center;
+  margin: 0 20px;
+  max-width:100%;
+  width: 600px;
+  margin-bottom: 100px;
+  font-size: 1.5em;
 }
 
 
